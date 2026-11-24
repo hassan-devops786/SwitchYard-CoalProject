@@ -5,6 +5,7 @@
 <p align="center">
   <img src="docs/screenshot.png" alt="SwichYard gameplay screenshot" width="500">
 </p>
+
 ![Language](https://img.shields.io/badge/language-x86%20Assembly-blue)
 ![Platform](https://img.shields.io/badge/platform-DOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -20,15 +21,18 @@
 - [How It Works](#how-it-works)
 - [Roadmap](#roadmap)
 - [Credits](#credits)
+  
 ## About
 SwichYard is a Asssembly 8088 Console Based Gamepool that presents a yard of track of Railway with 2 Entrance and 4 Stations. The yard is managed by 4 Switches that maps the whole place and maintains the  Movements of tain spawned autmatically.
 **Goal of the game:** A 2D Console Based GAme Written in Assembly aims to efficiently Deliver the concepts and core understandings of Assembly Language and Computer Organization including Interrupts, Video Memory,subroutines etc.
+
 ## Features
 - Feature one (e.g. keyboard-driven gameplay)
 - Feature two (e.g. text-mode or VGA graphics)
 - Feature three (e.g. score tracking)
 - Time Tracking (e.g. Estimate Time Elapsed)
 - Written with no external libraries
+  
 ## Requirements
 | Tool         | Version | Purpose                   |
 |--------------|---------|---------------------------|
@@ -42,15 +46,7 @@ SwichYard is a Asssembly 8088 Console Based Gamepool that presents a yard of tra
 | Esc          | Termainte     |
 | 1,2          | Mode Selection|
 ## Project Structure
-```
-swichyard/
-├── src/
-│   ├── main.asm        # Entry point and main loop
-├── docs/
-│   └── screenshot.png
-├── build/              # Compiled output (git-ignored)
-└── README.md
-```
+
 ## How It Works
 Brief technical notes for readers curious about the code:
 - **Architecture:** e.g. x86-64, 16-bit real mode, ARM
